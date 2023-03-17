@@ -1,6 +1,5 @@
 import React from "react";
 import "@/styles/global.css";
-import { TopNav } from "@/ui/TopNav";
 
 export const metadata = {
     title: "Library helper",
