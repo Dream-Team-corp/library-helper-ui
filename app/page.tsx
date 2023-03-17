@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <App>
             <TopNav />
-            <h1>Next UI</h1>
+            <h1>Library helper</h1>
         </App>
     );
 }
