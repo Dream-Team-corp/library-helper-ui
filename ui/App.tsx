@@ -4,10 +4,10 @@ import { NextUIProvider } from "@nextui-org/react";
 import { createTheme } from "@nextui-org/react";
 import { useThemeStore } from "@/store";
 
-const darkTheme = createTheme({
+export const darkTheme = createTheme({
     type: "dark",
 });
-const lightTheme = createTheme({
+export const lightTheme = createTheme({
     type: "light",
 });
 

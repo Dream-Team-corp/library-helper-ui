@@ -1,11 +1,11 @@
 "use client";
-import { Button, Card, Input, Loading, Spacer, Text } from "@nextui-org/react";
+import { Button, Card, Input, Loading, Text } from "@nextui-org/react";
 import sytles from "@/styles/styles.module.css";
-import { App } from "@/ui/App";
 import { IoLockClosed, IoLockOpen } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
 import { useState } from "react";
 import { useUserStore } from "@/store";
+import { App } from "@/ui/App";
 
 export default function Login() {
     const [isLoading, setIsLoading] = useState(false);
