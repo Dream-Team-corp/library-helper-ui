@@ -1,5 +1,6 @@
 import React from "react";
 import "@/styles/global.css";
+import { App } from "@/ui/App";
 
 export const metadata = {
     title: "Library Login",
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                <App>{children}</App>
+            </body>
         </html>
     );
 }

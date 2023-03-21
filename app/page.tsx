@@ -1,11 +1,4 @@
-import { App } from "@/ui/App";
-import { TopNav } from "@/ui/TopNav";
-
+"use client";
 export default function Home() {
-    return (
-        <App>
-            <TopNav />
-            <h1>Library helper</h1>
-        </App>
-    );
+    return <h1>Library helper</h1>;
 }
