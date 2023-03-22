@@ -1,7 +1,5 @@
 import React from "react";
 import "@/styles/global.css";
-import { TopNav } from "@/ui/TopNav";
-import { App } from "@/ui/App";
 
 export const metadata = {
     title: "Library helper",
@@ -14,14 +12,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>
-                <App>
-                    <header>
-                        <TopNav />
-                    </header>
-                    <main>{children}</main>
-                </App>
-            </body>
+            <body>{children}</body>
         </html>
     );
 }
